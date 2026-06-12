@@ -36,8 +36,8 @@ export default function Footer() {
               <div className="w-12 h-12 flex items-center justify-center bg-accent-500 rounded-xl">
                 <i className="ri-truck-line text-2xl text-primary-950"></i>
               </div>
-              <div>
-                <div className="font-heading font-900 text-xl tracking-tight text-accent-400">
+              <div translate="no">
+                <div className="notranslate font-heading font-900 text-xl tracking-tight text-accent-400">
                   ACTI<span className="text-background-50">LOGISTICS</span>
                 </div>
                 <div className="text-xs font-body tracking-wide text-background-300">Más que Transporte, Logística sin Límites</div>

@@ -48,8 +48,8 @@ export default function Navbar() {
             <div className="w-10 h-10 flex items-center justify-center bg-accent-500 rounded-lg">
               <i className="ri-truck-line text-xl text-primary-950"></i>
             </div>
-            <div className="text-background-50">
-              <div className="font-heading font-900 text-lg tracking-tight leading-none text-accent-400">ACTI<span className="text-background-50">LOGISTICS</span></div>
+            <div className="text-background-50" translate="no">
+              <div className="notranslate font-heading font-900 text-lg tracking-tight leading-none text-accent-400">ACTI<span className="text-background-50">LOGISTICS</span></div>
               <div className="text-xs font-body tracking-wider leading-none text-background-300">MÁS QUE TRANSPORTE, LOGÍSTICA SIN LÍMITES</div>
             </div>
           </div>
