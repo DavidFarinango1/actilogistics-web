@@ -3,7 +3,7 @@ interface CountryContact {
   flag: string;
   email: string;
   phone: string;
-  address: string;
+  addresses: { city: string; detail: string }[];
   icon: string;
 }
 
@@ -13,7 +13,10 @@ const contacts: CountryContact[] = [
     flag: '🇪🇨',
     email: 'gerencia@actilogistics.com',
     phone: '0939192869',
-    address: 'Av. Amazonas y Naciones Unidas, Quito, Ecuador',
+    addresses: [
+      { city: 'Quito', detail: 'Av. Galo Plaza Lasso 69 y Avellaneda, conjunto de bodegas Parkenor' },
+      { city: 'Tulcán', detail: 'Av. Argentina y Calderón 7049' },
+    ],
     icon: 'ri-map-pin-2-line',
   },
   {
@@ -21,7 +24,7 @@ const contacts: CountryContact[] = [
     flag: '🇨🇴',
     email: 'colombia@actilogistics.com',
     phone: '+57 310 987 6543',
-    address: 'Cra. 7 #71-21, Bogotá, Colombia',
+    addresses: [{ city: 'Bogotá', detail: 'Cra. 7 #71-21, Bogotá, Colombia' }],
     icon: 'ri-map-pin-2-line',
   },
   {
@@ -29,7 +32,7 @@ const contacts: CountryContact[] = [
     flag: '🇵🇪',
     email: 'peru@actilogistics.com',
     phone: '+51 987 654 321',
-    address: 'Av. Javier Prado Este 4600, Lima, Perú',
+    addresses: [{ city: 'Lima', detail: 'Av. Javier Prado Este 4600, Lima, Perú' }],
     icon: 'ri-map-pin-2-line',
   },
 ];
@@ -101,12 +104,20 @@ export default function ContactoEmails() {
                   {c.phone}
                 </a>
 
-                <div className={`flex items-start gap-2 text-sm font-body ${idx === 0 ? 'text-background-300' : 'text-foreground-600'}`}>
-                  <div className={`w-7 h-7 flex items-center justify-center rounded-full flex-shrink-0 mt-0.5 ${idx === 0 ? 'bg-accent-500/20' : 'bg-accent-100'}`}>
-                    <i className={`ri-map-pin-line text-xs ${idx === 0 ? 'text-accent-400' : 'text-accent-600'}`}></i>
+                {c.addresses.map((addr) => (
+                  <div
+                    key={addr.city}
+                    className={`flex items-start gap-2 text-sm font-body ${idx === 0 ? 'text-background-300' : 'text-foreground-600'}`}
+                  >
+                    <div className={`w-7 h-7 flex items-center justify-center rounded-full flex-shrink-0 mt-0.5 ${idx === 0 ? 'bg-accent-500/20' : 'bg-accent-100'}`}>
+                      <i className={`ri-map-pin-line text-xs ${idx === 0 ? 'text-accent-400' : 'text-accent-600'}`}></i>
+                    </div>
+                    <span className="leading-snug">
+                      <span className={`font-700 ${idx === 0 ? 'text-accent-400' : 'text-foreground-800'}`}>{addr.city}: </span>
+                      {addr.detail}
+                    </span>
                   </div>
-                  <span className="leading-snug">{c.address}</span>
-                </div>
+                ))}
               </div>
             </div>
           ))}
