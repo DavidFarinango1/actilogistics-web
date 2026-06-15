@@ -18,12 +18,6 @@ const sectors = [
     desc: 'Transporte de implementos especiales, farmacéuticos y del sector salud. Con altos estándares de calidad.',
   },
   {
-    id: 'mineria',
-    icon: 'ri-landscape-line',
-    title: 'Minería',
-    desc: 'Soluciones especializadas para el transporte seguro y eficiente de materiales pesados, equipos de minería y suministros esenciales.',
-  },
-  {
     id: 'industrial',
     icon: 'ri-settings-3-line',
     title: 'Industrial',
@@ -53,11 +47,11 @@ export default function SectorsSection() {
           <div className="w-16 h-1 bg-accent-500 mx-auto mt-4 rounded-full"></div>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div className="flex flex-wrap justify-center gap-5">
           {sectors.map((s, idx) => (
             <div
               key={s.id}
-              className="group bg-background-50 border border-background-200 rounded-xl p-6 hover:border-primary-300 hover:bg-background-50 transition-all duration-300"
+              className="group w-full sm:w-[calc(50%-0.625rem)] lg:w-[calc(33.333%-0.834rem)] bg-background-50 border border-background-200 rounded-xl p-6 hover:border-primary-300 hover:bg-background-50 transition-all duration-300"
               style={{ animationDelay: `${idx * 80}ms` }}
             >
               <div className="w-14 h-14 flex items-center justify-center bg-primary-100 rounded-xl mb-4 group-hover:bg-primary-500 transition-colors duration-300">
