@@ -63,7 +63,7 @@ const procesos = [
 
 export default function WarehouseSection() {
   return (
-    <section className="py-16 md:py-20 bg-background-50">
+    <section className="pt-6 pb-16 md:pb-20 bg-background-50">
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-14">
