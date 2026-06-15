@@ -35,18 +35,6 @@ const servicios = [
       'Coordinación de permisos especiales',
     ],
   },
-  {
-    id: 'minas',
-    title: 'Transporte de Servicios Especiales a Minas',
-    image: 'https://readdy.ai/api/search-image?query=Industrial%20mining%20trucks%20loaded%20with%20equipment%20and%20materials%20driving%20through%20rugged%20Andean%20mountain%20roads%20in%20Ecuador%2C%20dusty%20gravel%20path%2C%20orange%20earth%20tones%2C%20dramatic%20cliffs%2C%20professional%20logistics%20mining%20photography%2C%20strong%20natural%20light%2C%20cinematic%20wide%20angle&width=800&height=540&seq=activlog-servicio-minas-2026&orientation=landscape',
-    desc: 'Nos especializamos en el transporte de carga diversa que incluye insumos, repuestos, maquinaria y materiales para mantenimiento de vías. También manejamos movimientos de materiales para proyectos internos, asegurando una logística eficiente.',
-    complementarios: [
-      'Transporte de aluvión y balasto',
-      'Logística de insumos mineros',
-      'Movimientos internos de materiales',
-      'Rutas de acceso especializadas',
-    ],
-  },
 ];
 
 export default function ServiciosDetalle() {
@@ -62,7 +50,7 @@ export default function ServiciosDetalle() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {servicios.map((s) => (
             <div
               key={s.id}
