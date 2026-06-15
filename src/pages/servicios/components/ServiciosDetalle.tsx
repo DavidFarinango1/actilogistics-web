@@ -39,7 +39,7 @@ const servicios = [
 
 export default function ServiciosDetalle() {
   return (
-    <section className="pt-16 md:pt-20 pb-10 bg-background-100">
+    <section className="pt-10 pb-10 bg-background-100">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-14">
           <span className="inline-block text-accent-600 font-label text-xs font-700 tracking-widest uppercase mb-3">

@@ -23,7 +23,7 @@ const pilares = [
 
 export default function ValoresPilares() {
   return (
-    <section className="py-16 md:py-20 bg-background-50">
+    <section className="pt-16 md:pt-20 pb-10 bg-background-50">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-12">
           <span className="inline-block text-accent-600 font-label text-xs font-700 tracking-widest uppercase mb-3">
