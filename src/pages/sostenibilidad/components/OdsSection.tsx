@@ -77,7 +77,7 @@ export default function OdsSection() {
           </h2>
           <div className="w-14 h-1 bg-accent-500 rounded-full mx-auto mb-4"></div>
           <p className="text-foreground-600 max-w-2xl mx-auto text-sm leading-relaxed">
-            Activlogistics integra los principios de la Agenda 2030 de la ONU en su modelo de negocio. Cada decisión operativa considera su impacto en las personas, las comunidades y el planeta.
+            Actilogistics integra los principios de la Agenda 2030 de la ONU en su modelo de negocio. Cada decisión operativa considera su impacto en las personas, las comunidades y el planeta.
           </p>
         </div>
 

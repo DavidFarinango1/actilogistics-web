@@ -89,7 +89,7 @@ export default function PilaresVerdes() {
         <div className="mt-14 rounded-2xl overflow-hidden relative h-56 md:h-72">
           <img
             src="https://readdy.ai/api/search-image?query=Modern%20green%20logistics%20truck%20fleet%20driving%20on%20scenic%20mountain%20highway%20in%20Ecuador%20surrounded%20by%20lush%20Andean%20forest%20clean%20energy%20transport%20sustainable%20logistics%20operation%20aerial%20panoramic%20view%20golden%20hour%20warm%20lighting%20professional%20photography%20wide%20panorama&width=1600&height=400&seq=sosteni-fleet-acti&orientation=landscape"
-            alt="Flota ecológica Activlogistics en Ecuador"
+            alt="Flota ecológica Actilogistics en Ecuador"
             className="w-full h-full object-cover object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-primary-950/70 via-primary-950/30 to-transparent flex items-center">

@@ -141,13 +141,13 @@ export default function AboutSection() {
             <div className="relative rounded-2xl overflow-hidden">
               <img
                 src="https://readdy.ai/api/search-image?query=Professional%20logistics%20company%20office%20interior%20in%20Ecuador%20modern%20clean%20workspace%20with%20dark%20navy%20walls%20large%20windows%20overlooking%20city%20panoramic%20view%20cargo%20trucks%20visible%20in%20background%20warm%20lighting%20corporate%20atmosphere%20elegant%20minimalist%20design&width=900&height=500&seq=acti-about-mission&orientation=landscape"
-                alt="Activlogistics - Misión y Visión corporativa"
+                alt="Actilogistics - Misión y Visión corporativa"
                 className="w-full h-52 object-cover object-top"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary-950/80 via-primary-950/30 to-transparent"></div>
               <div className="absolute bottom-4 left-5">
                 <span className="text-accent-400 font-label text-xs font-700 uppercase tracking-widest">
-                  Activlogistics · Quito, Ecuador
+                  Actilogistics · Quito, Ecuador
                 </span>
               </div>
             </div>

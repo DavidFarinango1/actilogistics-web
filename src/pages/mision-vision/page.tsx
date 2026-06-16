@@ -19,7 +19,7 @@ export default function MisionVisionPage() {
         <div className="absolute inset-0">
           <img
             src="https://readdy.ai/api/search-image?query=Modern%20heavy%20cargo%20trucks%20fleet%20on%20Ecuador%20highway%20through%20Andean%20mountains%2C%20dramatic%20wide%20angle%2C%20golden%20morning%20light%2C%20professional%20freight%20logistics%20photography%2C%20deep%20blue%20sky%2C%20green%20mountains%2C%20highly%20detailed%20road%20and%20lush%20vegetation%2C%20cinematic%20quality&width=1600&height=700&seq=acti-hero-1"
-            alt="Misión y Visión Activlogistics"
+            alt="Misión y Visión Actilogistics"
             className="w-full h-full object-cover object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-primary-950 via-primary-950/55 to-primary-950/20"></div>

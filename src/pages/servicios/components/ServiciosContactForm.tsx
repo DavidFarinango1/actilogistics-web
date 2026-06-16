@@ -40,7 +40,7 @@ export default function ServiciosContactForm() {
       <div className="absolute inset-0">
         <img
           src="https://readdy.ai/api/search-image?query=Modern%20logistics%20coordination%20center%20with%20large%20monitor%20screens%20showing%20route%20maps%20of%20South%20America%2C%20professional%20operators%2C%20dimly%20lit%20command%20room%2C%20cool%20teal%20and%20dark%20blue%20tones%2C%20high%20detail%2C%20cinematic%20corporate%20photography&width=1800&height=700&seq=activlog-contact-services-bg-2026&orientation=landscape"
-          alt="Contacto Activlogistics Servicios"
+          alt="Contacto Actilogistics Servicios"
           className="w-full h-full object-cover object-top"
         />
         <div className="absolute inset-0 bg-primary-950/92"></div>
@@ -80,7 +80,7 @@ export default function ServiciosContactForm() {
         ) : (
           <form
             data-readdy-form
-            id="activlogistics-servicios-contact-form"
+            id="Actilogistics-servicios-contact-form"
             onSubmit={handleSubmit}
             className="bg-primary-900/60 border border-primary-700/50 rounded-2xl p-8 md:p-10 backdrop-blur-sm space-y-5"
           >

@@ -17,7 +17,7 @@ export default function SostenibilidadBanner() {
       <div className="absolute inset-0">
         <img
           src="https://readdy.ai/api/search-image?query=Abstract%20sustainability%20concept%20aerial%20view%20of%20green%20forest%20canopy%20Ecuador%20Amazon%20jungle%20from%20above%20lush%20dense%20green%20trees%20canopy%20texture%20top%20view%20natural%20pattern%20organic%20shapes%20environment%20conservation%20deep%20rich%20green%20tones%20minimal%20clean%20background&width=1800&height=500&seq=sosteni-banner-ods-acti&orientation=landscape"
-          alt="Activlogistics compromiso ODS"
+          alt="Actilogistics compromiso ODS"
           className="w-full h-full object-cover object-center"
         />
         <div className="absolute inset-0 bg-primary-950/80"></div>

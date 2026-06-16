@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 const WHATSAPP_NUMBER = '593939192869';
-const WHATSAPP_MESSAGE = 'Hola, me interesa conocer más sobre los servicios de Activlogistics.';
+const WHATSAPP_MESSAGE = 'Hola, me interesa conocer más sobre los servicios de Actilogistics.';
 
 export default function WhatsappButton() {
   const [hovered, setHovered] = useState(false);
