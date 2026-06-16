@@ -46,7 +46,7 @@ export default function Footer() {
 
             <div className="flex items-center gap-4">
               <a
-                href="https://www.linkedin.com"
+                href="https://www.linkedin.com/feed/"
                 target="_blank"
                 rel="nofollow noopener noreferrer"
                 className="w-9 h-9 flex items-center justify-center rounded-full border border-background-600 text-background-300 hover:text-accent-400 hover:border-accent-400 transition-colors"
@@ -55,7 +55,7 @@ export default function Footer() {
                 <i className="ri-linkedin-fill text-lg"></i>
               </a>
               <a
-                href="https://www.facebook.com"
+                href="https://www.facebook.com/profile.php?id=61590886948030"
                 target="_blank"
                 rel="nofollow noopener noreferrer"
                 className="w-9 h-9 flex items-center justify-center rounded-full border border-background-600 text-background-300 hover:text-accent-400 hover:border-accent-400 transition-colors"
@@ -64,7 +64,7 @@ export default function Footer() {
                 <i className="ri-facebook-fill text-lg"></i>
               </a>
               <a
-                href="https://www.instagram.com"
+                href="https://www.instagram.com/actilogistics1/"
                 target="_blank"
                 rel="nofollow noopener noreferrer"
                 className="w-9 h-9 flex items-center justify-center rounded-full border border-background-600 text-background-300 hover:text-accent-400 hover:border-accent-400 transition-colors"
