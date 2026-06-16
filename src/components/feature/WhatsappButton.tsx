@@ -4,7 +4,7 @@ const WHATSAPP_NUMBER = '593939192869';
 const WHATSAPP_MESSAGE = 'Hola, me interesa conocer más sobre los servicios de Actilogistics.';
 const FACEBOOK_URL = 'https://www.facebook.com/profile.php?id=61590886948030';
 const INSTAGRAM_URL = 'https://www.instagram.com/actilogistics1/';
-const LINKEDIN_URL = 'https://www.linkedin.com/feed/';
+const LINKEDIN_URL = 'https://www.linkedin.com/in/gerencia-actilogistics-35308b417/';
 
 export default function WhatsappButton() {
   const [hovered, setHovered] = useState(false);
