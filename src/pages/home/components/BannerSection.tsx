@@ -3,7 +3,7 @@ export default function BannerSection() {
     <section className="relative h-64 md:h-80 overflow-hidden">
       <img
         src="https://readdy.ai/api/search-image?query=Aerial%20panoramic%20view%20of%20Ecuador%20Andes%20mountains%20at%20sunset%20with%20trucks%20on%20highway%20below%2C%20dramatic%20orange%20golden%20sky%2C%20vast%20South%20American%20landscape%20expanding%20to%20the%20horizon%2C%20majestic%20scale%2C%20cinematic%20tones%2C%20wide%20angle%20photography&width=1600&height=500&seq=acti-banner-horizons&orientation=landscape"
-        alt="Activlogistics - Más que Transporte, Logística sin Límites"
+        alt="Actilogistics - Más que Transporte, Logística sin Límites"
         className="w-full h-full object-cover object-center"
       />
       <div className="absolute inset-0 bg-gradient-to-r from-primary-950/75 via-primary-950/45 to-transparent"></div>

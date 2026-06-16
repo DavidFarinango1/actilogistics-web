@@ -115,7 +115,7 @@ export default function Footer() {
       <div className="bg-primary-950 border-t border-primary-800 py-4">
         <div className="max-w-7xl mx-auto px-6">
           <p className="text-center text-xs text-background-500">
-            Activlogistics &copy; 2026 — Todos los derechos reservados
+            Actilogistics &copy; 2026 — Todos los derechos reservados
           </p>
         </div>
       </div>

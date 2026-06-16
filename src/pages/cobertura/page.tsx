@@ -23,7 +23,7 @@ export default function CoberturaPage() {
         <div className="absolute inset-0">
           <img
             src="https://readdy.ai/api/search-image?query=Aerial%20view%20of%20busy%20freight%20distribution%20hub%20in%20Ecuador%20with%20trucks%20and%20containers%20at%20loading%20docks%2C%20organized%20logistics%20center%2C%20birds%20eye%20view%2C%20warm%20afternoon%20light%2C%20photorealistic%20industrial%20scale%20operations&width=1600&height=500&seq=acti-stats-bg"
-            alt="Cobertura nacional Activlogistics"
+            alt="Cobertura nacional Actilogistics"
             className="w-full h-full object-cover object-center"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-primary-950 via-primary-950/55 to-primary-950/20"></div>

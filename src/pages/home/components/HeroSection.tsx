@@ -33,7 +33,7 @@ export default function HeroSection() {
   const next = () => setCurrent((c) => (c + 1) % slides.length);
 
   return (
-    <section className="relative w-full h-[580px] md:h-[700px] overflow-hidden" aria-label="Hero Activlogistics">
+    <section className="relative w-full h-[580px] md:h-[700px] overflow-hidden" aria-label="Hero Actilogistics">
       {slides.map((slide, idx) => (
         <div
           key={slide.id}

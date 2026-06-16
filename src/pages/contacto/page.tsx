@@ -15,7 +15,7 @@ export default function ContactoPage() {
         {/* Google Map embed */}
         <section className="w-full h-[380px] overflow-hidden">
           <iframe
-            title="Ubicación Activlogistics - Quito, Ecuador"
+            title="Ubicación Actilogistics - Quito, Ecuador"
             src="https://maps.google.com/maps?q=Av.%20Galo%20Plaza%20Lasso%2069%20y%20Avellaneda%2C%20Quito%2C%20Ecuador&z=15&output=embed"
             width="100%"
             height="100%"
@@ -23,7 +23,7 @@ export default function ContactoPage() {
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            aria-label="Mapa de ubicación de Activlogistics en Quito, Ecuador"
+            aria-label="Mapa de ubicación de Actilogistics en Quito, Ecuador"
           ></iframe>
         </section>
       </main>

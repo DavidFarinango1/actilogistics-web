@@ -69,7 +69,7 @@ export default function SostenibilidadContacto() {
               </div>
               <div>
                 <p className="font-heading font-700 text-sm text-green-800">Empresa comprometida con los ODS</p>
-                <p className="text-xs text-green-700">Activlogistics · Agenda 2030</p>
+                <p className="text-xs text-green-700">Actilogistics · Agenda 2030</p>
               </div>
             </div>
           </div>

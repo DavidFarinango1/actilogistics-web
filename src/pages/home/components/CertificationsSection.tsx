@@ -44,7 +44,7 @@ export default function CertificationsSection() {
             </h2>
             <div className="w-14 h-1 bg-accent-500 rounded-full mb-6"></div>
             <p className="text-foreground-700 text-sm leading-relaxed mb-8">
-              En Activlogistics creemos que el crecimiento empresarial y la responsabilidad con el planeta no son opuestos. Reducimos emisiones mediante algoritmos de consolidación de carga y mantenemos flotas verdes comprometidas con el medio ambiente.
+              En Actilogistics creemos que el crecimiento empresarial y la responsabilidad con el planeta no son opuestos. Reducimos emisiones mediante algoritmos de consolidación de carga y mantenemos flotas verdes comprometidas con el medio ambiente.
             </p>
             <div className="flex items-center gap-4 bg-background-100 border border-background-200 rounded-xl p-4">
               <div className="w-12 h-12 flex items-center justify-center bg-accent-100 rounded-full shrink-0">

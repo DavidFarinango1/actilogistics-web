@@ -31,7 +31,7 @@ export default function WhyUsSection() {
       <div className="absolute inset-0">
         <img
           src="https://readdy.ai/api/search-image?query=Professional%20logistics%20operations%20center%20in%20Ecuador%20with%20workers%20monitoring%20screens%20and%20truck%20fleet%20in%20background%2C%20modern%20control%20room%2C%20warm%20corporate%20lighting%2C%20organized%20professional%20workspace%2C%20confident%20team%2C%20industrial%20scale%20operations&width=1600&height=700&seq=acti-pillars-bg&orientation=landscape"
-          alt="Pilares de Servicio Activlogistics"
+          alt="Pilares de Servicio Actilogistics"
           className="w-full h-full object-cover object-center"
         />
         <div className="absolute inset-0 bg-primary-950/88"></div>
