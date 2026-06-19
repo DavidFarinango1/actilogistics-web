@@ -13,7 +13,7 @@ export default function SostenibilidadContacto() {
 
     setStatus('sending');
     try {
-      const res = await fetch('https://readdy.ai/api/form/d8lcstbakrl89656ll70', {
+      const res = await fetch('https://formsubmit.co/ajax/gerencia@actilogistics.com', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: body.toString(),
