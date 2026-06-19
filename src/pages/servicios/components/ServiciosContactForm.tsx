@@ -1,6 +1,6 @@
 import { useState, FormEvent } from 'react';
 
-const FORM_URL = 'https://readdy.ai/api/form/d8lcmpbakrl89656ll20';
+const FORM_URL = 'https://formsubmit.co/ajax/gerencia@actilogistics.com';
 
 type Status = 'idle' | 'sending' | 'success' | 'error';
 
