@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const WHATSAPP_NUMBER = '593939192869';
+const WHATSAPP_NUMBER = '593985094403';
 const WHATSAPP_MESSAGE = 'Hola, me interesa conocer más sobre los servicios de Actilogistics.';
 const FACEBOOK_URL = 'https://www.facebook.com/profile.php?id=61590886948030';
 const INSTAGRAM_URL = 'https://www.instagram.com/actilogistics1/';
