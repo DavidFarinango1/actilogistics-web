@@ -12,7 +12,7 @@ const contacts: CountryContact[] = [
     country: 'Ecuador',
     flag: '🇪🇨',
     email: 'gerencia@actilogistics.com',
-    phone: '0939192869',
+    phone: '0985094403',
     addresses: [
       { city: 'Quito', detail: 'Av. Galo Plaza Lasso 69 y Avellaneda, conjunto de bodegas Parkenor' },
       { city: 'Tulcán', detail: 'Av. Argentina y Calderón 7049' },
